@@ -18,6 +18,20 @@ public class Prueba_chat {
         
         //1. Hola Juan
         //2. hola 
+        
+        
     }
     
+}
+
+public class MiClase {
+    public int suma (int x, int y){
+        return x+y;
+    }
+    static public int suma (int x, int y, int z){
+        return x+y+z;
+    }
+    static public void main(String[]args){
+        System.out.println(suma(5,4)+" "+suma(2,3,4));
+    }
 }
